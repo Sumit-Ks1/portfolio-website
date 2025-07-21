@@ -86,7 +86,7 @@ Passionate Full Stack Web Developer with expertise in modern web technologies an
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sumit-Ks1&show_icons=true&theme=dark)
 
 ---
 
