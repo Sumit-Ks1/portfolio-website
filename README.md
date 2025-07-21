@@ -1,55 +1,107 @@
-# Sumit Kumar Singh - Portfolio Website
+# Sumit Kumar Singh
+**Full Stack Web Developer**
 
-A modern, responsive portfolio website showcasing my skills, projects, education, and experience as a Backend Developer.
+📧 [LinkedIn](https://www.linkedin.com/in/sumit-kumar-singh-8b1768292/) | 💻 GitHub Portfolio
 
-## 🚀 Features
+---
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Interactive Navigation**: Smooth section switching with sidebar navigation
-- **Modern UI**: Clean and professional design with gradient accents
-- **Project Showcase**: Detailed project cards with technologies and links
-- **Achievement Gallery**: Highlighting hackathon victories and certifications
-- **Contact Form**: Interactive contact form with email integration
-- **Social Links**: Direct links to GitHub, LinkedIn, and Twitter profiles
+## 👨‍💻 Professional Summary
 
-## 🛠️ Technologies Used
+Passionate Full Stack Web Developer with expertise in modern web technologies and a strong foundation in both backend and frontend development. Currently working as a Software Engineer at The Geostrata company while pursuing Computer Science Engineering. Demonstrated excellence in competitive programming and hackathons with multiple top rankings across national competitions.
 
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Icons**: Lucide Icons
-- **Hosting**: Netlify
-- **Version Control**: Git & GitHub
+---
 
-## 📁 Project Structure
+## 🎓 Education
 
-```
-├── index.html          # Main HTML file
-├── assets/
-│   └── index-CbeNCawK.css  # Compiled CSS styles
-├── script.js           # JavaScript functionality
-└── README.md           # Project documentation
-```
+**Bachelor of Technology - Computer Science and Engineering**  
+*Vellore Institute of Technology, Bhopal* | 2023 - 2027  
 
-## 🌟 Sections
+**Higher Secondary Education (12th)**  
+*St. Xavier's School* | **92%** - **District Topper** 🏆  
 
-1. **About** - Personal introduction and basic information
-2. **Education** - Academic background and achievements
-3. **Skills** - Technical skills and expertise areas
-4. **Projects** - Featured projects with descriptions and tech stacks
-5. **Achievements** - Hackathon victories and certifications
-6. **Experience** - Current work experience
-7. **Contact** - Contact information and message form
+**Secondary Education (10th)**  
+*St. Joseph School* | **94%**
 
-## 🚀 Live Demo
+---
 
-Visit the live website: [Your Netlify URL will be here]
+## 💼 Professional Experience
 
-## 📧 Contact
+**Software Engineer (Intern)**  
+*The Geostrata Company* | Remote | Present  
+- Working as a full-stack developer contributing to enterprise-level applications
+- Collaborating with cross-functional teams in a remote work environment
+- Implementing scalable solutions using modern web technologies
 
-- **Email**: sumit127624@gmail.com
-- **LinkedIn**: [Sumit Kumar Singh](https://www.linkedin.com/in/sumit-kumar-singh-8b1768292/)
-- **GitHub**: [Sumit-Ks1](https://github.com/Sumit-Ks1)
-- **Twitter**: [@SumitKu52247675](https://x.com/SumitKu52247675)
+---
 
-## 📄 License
+## 🛠️ Technical Skills
 
-This project is open source and available under the [MIT License](LICENSE).
+### **Frontend Development**
+- React.js, Next.js
+- Tailwind CSS
+- Responsive Web Design
+
+### **Backend Development**
+- Node.js, Express.js
+- RESTful API Development
+- Database Integration
+
+### **Full Stack Technologies**
+- MERN Stack (MongoDB, Express.js, React.js, Node.js)
+- Next.js Framework
+
+### **DevOps & Tools**
+- Docker
+- Qdrant Vector Database
+- Job Queuing Systems
+
+---
+
+## 🏆 Achievements
+
+🥇 **Top 20** - mujX HackX by MIT University  
+*Out of 260 teams across the country from 60+ universities*
+
+🥈 **Top 15** - S.P.I.T Hackathon  
+*Out of 600 teams across India, organized by SPIT College*
+
+🏅 **Finalist** - Smart India Hackathon 2024 (SIH-2024)  
+*Cleared all internal rounds to reach the finals*
+
+---
+
+## 🌟 Extra-Curricular Activities
+
+**Core Team Member - Fusion Club Tech Team**  
+*August 2024 - Present*  
+- Developing web pages for multiple university events
+- Contributing to technical initiatives and digital solutions
+
+**Core Team Member - Open Source Club Tech Team**  
+*September 2024 - Present*  
+- Promoting open-source contribution culture
+- Leading technical workshops and coding sessions
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark)
+
+---
+
+## 🚀 Featured Projects
+
+*Coming Soon - Stay tuned for exciting projects!*
+
+---
+
+## 📫 Let's Connect!
+
+I'm always open to discussing new opportunities, collaborations, or just having a chat about technology!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-kumar-singh-8b1768292/)
+
+---
+
+*"Passionate about creating innovative solutions and contributing to the tech community"*
