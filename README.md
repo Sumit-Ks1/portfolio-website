@@ -92,7 +92,59 @@ Passionate Full Stack Web Developer with expertise in modern web technologies an
 
 ## 🚀 Featured Projects
 
-*Coming Soon - Stay tuned for exciting projects!*
+### 🔍 **Derplexity**
+Real-time web search engine with accurate solutions. Built with advanced algorithms for precise and instant search results.
+
+**Key Features:**
+- Real-time search capabilities
+- Accurate and precise results
+- Fast response time optimization
+
+**Technologies:** Next.js, Node.js, Real-time APIs, Search Algorithms
+
+🔗 [View Code](https://github.com/Sumit-Ks1/derplexity-ai)
+
+---
+
+### 📄 **PDF RAG AI Model**
+Intelligent document processing system using Retrieval-Augmented Generation for extracting and analyzing PDF content.
+
+**Key Features:**
+- Advanced document analysis
+- Smart content extraction
+- AI-powered insights and processing
+
+**Technologies:** Next.js, Python, AI/ML, Valkey, Qdrant, Docker
+
+🔗 [View Code](https://github.com/Sumit-Ks1/PDF-RAG-AI)
+
+---
+
+### 💰 **Finance Tracker**
+Comprehensive financial management application with expense tracking, budgeting, and financial insights.
+
+**Key Features:**
+- Intelligent expense tracking
+- Budget management system
+- Detailed financial reports and analytics
+
+**Technologies:** React.js, Node.js, MongoDB, Chart.js
+
+🔗 [View Code](#) *(Repository coming soon)*
+
+---
+
+### ⚡ **Open Source Contribution Platform**
+Platform connecting developers with open source projects. Features project discovery, contribution tracking, and developer networking.
+
+**Key Features:**
+- Smart project discovery system
+- Contribution tracking and analytics
+- Developer networking and collaboration tools
+
+**Technologies:** Next.js, Queue System, Notifications, Docker
+
+🔗 [View Code](#) *(Repository coming soon)*
 
 ---
 
