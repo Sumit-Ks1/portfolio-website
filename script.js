@@ -5,6 +5,10 @@ lucide.createIcons();
 document.addEventListener('DOMContentLoaded', function() {
     const navItems = document.querySelectorAll('.nav-item');
     const sections = document.querySelectorAll('.section');
+    const sidebar = document.querySelector('.sidebar');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const sidebarBackdrop = document.querySelector('.sidebar-backdrop');
+    const mobileQuery = window.matchMedia('(max-width: 1024px)');
     
     // Function to show a specific section
     function showSection(sectionId) {
@@ -29,17 +33,54 @@ document.addEventListener('DOMContentLoaded', function() {
             activeItem.classList.add('active');
         }
     }
+
+    // Sidebar open/close handling for mobile
+    function setSidebarState(isOpen) {
+        if (sidebar) {
+            sidebar.classList.toggle('open', isOpen);
+        }
+        if (sidebarBackdrop) {
+            sidebarBackdrop.classList.toggle('visible', isOpen);
+        }
+        if (menuToggle) {
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+        }
+    }
+
+    if (menuToggle && sidebar) {
+        menuToggle.addEventListener('click', function() {
+            const nextState = !sidebar.classList.contains('open');
+            setSidebarState(nextState);
+        });
+    }
+
+    if (sidebarBackdrop) {
+        sidebarBackdrop.addEventListener('click', function() {
+            setSidebarState(false);
+        });
+    }
+
+    mobileQuery.addEventListener('change', function(event) {
+        if (!event.matches) {
+            setSidebarState(false);
+        }
+    });
     
     // Add click event listeners to nav items
     navItems.forEach(item => {
         item.addEventListener('click', function() {
             const sectionId = this.getAttribute('data-section');
             showSection(sectionId);
+
+            if (mobileQuery.matches) {
+                setSidebarState(false);
+            }
         });
     });
     
     // Show the about section by default
     showSection('about');
+    setSidebarState(false);
     
     // Contact form handling
     const contactForm = document.getElementById('contactForm');
