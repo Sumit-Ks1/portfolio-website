@@ -81,39 +81,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show the about section by default
     showSection('about');
     setSidebarState(false);
-    
-    // Contact form handling
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const name = formData.get('name');
-            const email = formData.get('email');
-            const message = formData.get('message');
-            
-            // Simple validation
-            if (name && email && message) {
-                // Create mailto link
-                const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
-                const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
-                const mailtoLink = `mailto:sumit127624@gmail.com?subject=${subject}&body=${body}`;
-                
-                // Open email client
-                window.location.href = mailtoLink;
-                
-                // Reset form
-                this.reset();
-                
-                // Show success message
-                alert('Thank you for your message! Your email client should open now.');
-            } else {
-                alert('Please fill in all fields.');
-            }
-        });
-    }
 });
 
 // Add some interactive effects
