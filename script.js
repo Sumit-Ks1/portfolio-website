@@ -82,10 +82,10 @@ document.addEventListener('DOMContentLoaded', function() {
     showSection('about');
     setSidebarState(false);
     
-    // Contact form handling with Resend API
+    // Contact form handling
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
-        contactForm.addEventListener('submit', async function(e) {
+        contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
             // Get form data
@@ -95,51 +95,22 @@ document.addEventListener('DOMContentLoaded', function() {
             const message = formData.get('message');
             
             // Simple validation
-            if (!name || !email || !message) {
+            if (name && email && message) {
+                // Create mailto link
+                const subject = encodeURIComponent(`Portfolio Contact from ${name}`);
+                const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+                const mailtoLink = `mailto:sumit127624@gmail.com?subject=${subject}&body=${body}`;
+                
+                // Open email client
+                window.location.href = mailtoLink;
+                
+                // Reset form
+                this.reset();
+                
+                // Show success message
+                alert('Thank you for your message! Your email client should open now.');
+            } else {
                 alert('Please fill in all fields.');
-                return;
-            }
-            
-            // Get submit button and disable it
-            const submitBtn = this.querySelector('button[type="submit"]');
-            const originalBtnText = submitBtn.innerHTML;
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = '<i data-lucide="loader"></i><span>Sending...</span>';
-            
-            try {
-                // Send email via API
-                const response = await fetch('http://localhost:3001/api/send-email', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        name: name,
-                        email: email,
-                        message: message
-                    })
-                });
-                
-                const data = await response.json();
-                
-                if (data.success) {
-                    // Reset form
-                    this.reset();
-                    
-                    // Show success message
-                    alert('✅ Thank you for your message! I\'ll get back to you soon.');
-                } else {
-                    // Show error message
-                    alert('❌ Failed to send message: ' + (data.error || 'Unknown error'));
-                }
-            } catch (error) {
-                console.error('Error sending email:', error);
-                alert('❌ Failed to send message. Please make sure the server is running or try again later.');
-            } finally {
-                // Re-enable button
-                submitBtn.disabled = false;
-                submitBtn.innerHTML = originalBtnText;
-                lucide.createIcons(); // Reinitialize icons
             }
         });
     }
