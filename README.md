@@ -5,6 +5,26 @@
 
 ---
 
+## 🌐 Portfolio Website
+
+This repository contains my personal portfolio website with the following features:
+- ✨ Modern, responsive design
+- 📧 **Contact form with email integration** (powered by Resend)
+- 🎨 Interactive UI with smooth animations
+- 📱 Mobile-friendly interface
+
+### 🚀 Quick Start
+
+1. **Clone the repository**
+2. **Install dependencies:** `npm install`
+3. **Configure email:** See [EMAIL_SETUP.md](EMAIL_SETUP.md) for Resend configuration
+4. **Start the server:** `npm start`
+5. **Open the website:** Open `index.html` in your browser
+
+For detailed email setup instructions, see [EMAIL_SETUP.md](EMAIL_SETUP.md).
+
+---
+
 ## 👨‍💻 Professional Summary
 
 Passionate Full Stack Web Developer with expertise in modern web technologies and a strong foundation in both backend and frontend development. Currently working as a Software Engineer at The Geostrata company while pursuing Computer Science Engineering. Demonstrated excellence in competitive programming and hackathons with multiple top rankings across national competitions.
